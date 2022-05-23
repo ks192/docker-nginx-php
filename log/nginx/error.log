@@ -1,0 +1,141 @@
+2022/05/22 21:42:47 [notice] 1#1: using the "epoll" event method
+2022/05/22 21:42:47 [notice] 1#1: nginx/1.21.6
+2022/05/22 21:42:47 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/22 21:42:47 [notice] 1#1: OS: Linux 4.15.0-159-generic
+2022/05/22 21:42:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/22 21:42:47 [notice] 1#1: start worker processes
+2022/05/22 21:42:47 [notice] 1#1: start worker process 26
+2022/05/22 21:42:47 [notice] 1#1: start worker process 27
+2022/05/22 22:06:36 [error] 26#26: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 43.155.107.64, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "43.155.107.64", referrer: "http://43.155.107.64/"
+2022/05/22 22:09:31 [error] 26#26: *5 open() "/usr/share/nginx/html/index" failed (2: No such file or directory), client: 43.155.107.64, server: localhost, request: "GET /index HTTP/1.1", host: "43.155.107.64"
+2022/05/22 22:11:21 [error] 26#26: *6 open() "/usr/share/nginx/html/1.html" failed (2: No such file or directory), client: 43.155.107.64, server: localhost, request: "GET /1.html HTTP/1.1", host: "43.155.107.64"
+2022/05/22 22:12:13 [error] 26#26: *6 open() "/usr/share/nginx/html/1.html" failed (2: No such file or directory), client: 43.155.107.64, server: localhost, request: "GET /1.html HTTP/1.1", host: "43.155.107.64"
+2022/05/22 22:12:15 [error] 26#26: *6 open() "/usr/share/nginx/html/1.html" failed (2: No such file or directory), client: 43.155.107.64, server: localhost, request: "GET /1.html HTTP/1.1", host: "43.155.107.64"
+2022/05/22 22:14:23 [notice] 1#1: signal 15 (SIGTERM) received from 42, exiting
+2022/05/22 22:14:23 [notice] 27#27: exiting
+2022/05/22 22:14:23 [notice] 26#26: exiting
+2022/05/22 22:14:23 [notice] 26#26: exit
+2022/05/22 22:14:23 [notice] 27#27: exit
+2022/05/22 22:14:23 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/05/22 22:14:23 [notice] 1#1: worker process 26 exited with code 0
+2022/05/22 22:14:23 [notice] 1#1: worker process 27 exited with code 0
+2022/05/22 22:14:23 [notice] 1#1: exit
+2022/05/22 22:14:24 [notice] 1#1: using the "epoll" event method
+2022/05/22 22:14:24 [notice] 1#1: nginx/1.21.6
+2022/05/22 22:14:24 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/22 22:14:24 [notice] 1#1: OS: Linux 4.15.0-159-generic
+2022/05/22 22:14:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/22 22:14:24 [notice] 1#1: start worker processes
+2022/05/22 22:14:24 [notice] 1#1: start worker process 26
+2022/05/22 22:14:24 [notice] 1#1: start worker process 27
+2022/05/22 22:15:34 [notice] 1#1: signal 15 (SIGTERM) received from 47, exiting
+2022/05/22 22:15:34 [notice] 27#27: exiting
+2022/05/22 22:15:34 [notice] 26#26: exiting
+2022/05/22 22:15:34 [notice] 26#26: exit
+2022/05/22 22:15:34 [notice] 27#27: exit
+2022/05/22 22:15:34 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/05/22 22:15:34 [notice] 1#1: worker process 26 exited with code 0
+2022/05/22 22:15:34 [notice] 1#1: worker process 27 exited with code 0
+2022/05/22 22:15:34 [notice] 1#1: exit
+2022/05/22 22:15:35 [notice] 1#1: using the "epoll" event method
+2022/05/22 22:15:35 [notice] 1#1: nginx/1.21.6
+2022/05/22 22:15:35 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/22 22:15:35 [notice] 1#1: OS: Linux 4.15.0-159-generic
+2022/05/22 22:15:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/22 22:15:35 [notice] 1#1: start worker processes
+2022/05/22 22:15:35 [notice] 1#1: start worker process 24
+2022/05/22 22:15:35 [notice] 1#1: start worker process 25
+2022/05/22 22:15:36 [error] 24#24: *2 directory index of "/home/www/" is forbidden, client: 43.155.107.64, server: localhost, request: "GET / HTTP/1.1", host: "43.155.107.64"
+2022/05/22 22:15:39 [error] 24#24: *2 directory index of "/home/www/" is forbidden, client: 43.155.107.64, server: localhost, request: "GET / HTTP/1.1", host: "43.155.107.64"
+2022/05/22 22:15:57 [error] 24#24: *2 directory index of "/home/www/" is forbidden, client: 43.155.107.64, server: localhost, request: "GET / HTTP/1.1", host: "43.155.107.64"
+2022/05/22 22:24:53 [error] 25#25: *3 directory index of "/home/www/" is forbidden, client: 43.155.107.64, server: localhost, request: "GET / HTTP/1.1", host: "43.155.107.64"
+2022/05/22 22:26:42 [notice] 1#1: signal 15 (SIGTERM) received from 40, exiting
+2022/05/22 22:26:42 [notice] 24#24: exiting
+2022/05/22 22:26:42 [notice] 25#25: exiting
+2022/05/22 22:26:42 [notice] 25#25: exit
+2022/05/22 22:26:42 [notice] 24#24: exit
+2022/05/22 22:26:42 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/22 22:26:42 [notice] 1#1: worker process 24 exited with code 0
+2022/05/22 22:26:42 [notice] 1#1: worker process 25 exited with code 0
+2022/05/22 22:26:42 [notice] 1#1: exit
+2022/05/22 22:26:43 [notice] 1#1: using the "epoll" event method
+2022/05/22 22:26:43 [notice] 1#1: nginx/1.21.6
+2022/05/22 22:26:43 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/22 22:26:43 [notice] 1#1: OS: Linux 4.15.0-159-generic
+2022/05/22 22:26:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/22 22:26:43 [notice] 1#1: start worker processes
+2022/05/22 22:26:43 [notice] 1#1: start worker process 24
+2022/05/22 22:26:43 [notice] 1#1: start worker process 25
+2022/05/22 22:27:28 [notice] 1#1: signal 15 (SIGTERM) received from 38, exiting
+2022/05/22 22:27:28 [notice] 25#25: exiting
+2022/05/22 22:27:28 [notice] 25#25: exit
+2022/05/22 22:27:28 [notice] 24#24: exiting
+2022/05/22 22:27:28 [notice] 24#24: exit
+2022/05/22 22:27:28 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/22 22:27:28 [notice] 1#1: worker process 25 exited with code 0
+2022/05/22 22:27:28 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/22 22:27:28 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/22 22:27:28 [notice] 1#1: worker process 24 exited with code 0
+2022/05/22 22:27:28 [notice] 1#1: exit
+2022/05/22 22:27:29 [notice] 1#1: using the "epoll" event method
+2022/05/22 22:27:29 [notice] 1#1: nginx/1.21.6
+2022/05/22 22:27:29 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/22 22:27:29 [notice] 1#1: OS: Linux 4.15.0-159-generic
+2022/05/22 22:27:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/22 22:27:29 [notice] 1#1: start worker processes
+2022/05/22 22:27:29 [notice] 1#1: start worker process 23
+2022/05/22 22:27:29 [notice] 1#1: start worker process 24
+2022/05/22 22:28:03 [notice] 1#1: signal 15 (SIGTERM) received from 36, exiting
+2022/05/22 22:28:03 [notice] 23#23: exiting
+2022/05/22 22:28:03 [notice] 23#23: exit
+2022/05/22 22:28:03 [notice] 24#24: exiting
+2022/05/22 22:28:03 [notice] 24#24: exit
+2022/05/22 22:28:03 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/22 22:28:03 [notice] 1#1: worker process 23 exited with code 0
+2022/05/22 22:28:03 [notice] 1#1: worker process 24 exited with code 0
+2022/05/22 22:28:03 [notice] 1#1: exit
+2022/05/22 22:28:04 [notice] 1#1: using the "epoll" event method
+2022/05/22 22:28:04 [notice] 1#1: nginx/1.21.6
+2022/05/22 22:28:04 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/22 22:28:04 [notice] 1#1: OS: Linux 4.15.0-159-generic
+2022/05/22 22:28:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/22 22:28:04 [notice] 1#1: start worker processes
+2022/05/22 22:28:04 [notice] 1#1: start worker process 24
+2022/05/22 22:28:04 [notice] 1#1: start worker process 25
+2022/05/22 22:28:06 [error] 25#25: *2 directory index of "/home/www/" is forbidden, client: 43.155.107.64, server: localhost, request: "GET / HTTP/1.1", host: "43.155.107.64"
+2022/05/22 22:28:08 [error] 25#25: *2 directory index of "/home/www/" is forbidden, client: 43.155.107.64, server: localhost, request: "GET / HTTP/1.1", host: "43.155.107.64"
+2022/05/22 22:28:16 [error] 25#25: *2 directory index of "/home/www/" is forbidden, client: 43.155.107.64, server: localhost, request: "GET / HTTP/1.1", host: "43.155.107.64"
+2022/05/22 22:28:19 [notice] 1#1: signal 15 (SIGTERM) received from 38, exiting
+2022/05/22 22:28:19 [notice] 24#24: exiting
+2022/05/22 22:28:19 [notice] 25#25: exiting
+2022/05/22 22:28:19 [notice] 25#25: exit
+2022/05/22 22:28:19 [notice] 24#24: exit
+2022/05/22 22:28:19 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/22 22:28:19 [notice] 1#1: worker process 24 exited with code 0
+2022/05/22 22:28:19 [notice] 1#1: worker process 25 exited with code 0
+2022/05/22 22:28:19 [notice] 1#1: exit
+2022/05/22 22:28:20 [notice] 1#1: using the "epoll" event method
+2022/05/22 22:28:20 [notice] 1#1: nginx/1.21.6
+2022/05/22 22:28:20 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/22 22:28:20 [notice] 1#1: OS: Linux 4.15.0-159-generic
+2022/05/22 22:28:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/22 22:28:20 [notice] 1#1: start worker processes
+2022/05/22 22:28:20 [notice] 1#1: start worker process 26
+2022/05/22 22:28:20 [notice] 1#1: start worker process 27
+2022/05/22 22:30:04 [error] 26#26: *3 open() "/home/www/index.p" failed (2: No such file or directory), client: 43.155.107.64, server: localhost, request: "GET /index.p HTTP/1.1", host: "43.155.107.64"
+2022/05/22 22:30:53 [notice] 1#1: using the "epoll" event method
+2022/05/22 22:30:53 [notice] 1#1: nginx/1.21.6
+2022/05/22 22:30:53 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/22 22:30:53 [notice] 1#1: OS: Linux 4.15.0-159-generic
+2022/05/22 22:30:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/22 22:30:53 [notice] 1#1: start worker processes
+2022/05/22 22:30:53 [notice] 1#1: start worker process 25
+2022/05/22 22:30:53 [notice] 1#1: start worker process 26
+2022/05/22 22:31:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/22 22:31:11 [notice] 25#25: gracefully shutting down
+2022/05/22 22:31:11 [notice] 26#26: gracefully shutting down
+2022/05/22 22:31:11 [notice] 25#25: exiting
+2022/05/22 22:31:11 [notice] 25#25: exit
+2022/05/22 22:31:11 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/22 22:31:11 [notice] 1#1: worker process 25 exited with code 0
+2022/05/22 22:31:11 [notice] 1#1: signal 29 (SIGIO) received
